@@ -89,3 +89,4 @@ Capfile
 config/deploy.rb
 config/deploy/
 .generators
+config/database.yml
