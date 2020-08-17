@@ -83,3 +83,9 @@ gem_cache
 
 # Auto-generated Storybook stories
 app/javascript/generated_stories/
+
+# Git ignore local cap files
+Capfile
+config/deploy.rb
+config/deploy/
+.generators
