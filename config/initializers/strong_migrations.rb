@@ -1,11 +1,11 @@
 # https://github.com/ankane/strong_migrations#existing-migrations
-StrongMigrations.start_after = 20_200_106_074_859
+# StrongMigrations.start_after = 20_200_106_074_859
 
 # https://github.com/ankane/strong_migrations#removing-an-index-non-concurrently
-StrongMigrations.enable_check(:remove_index)
+# StrongMigrations.enable_check(:remove_index)
 
 # https://github.com/ankane/strong_migrations#target-version
-StrongMigrations.target_postgresql_version = 11
+# StrongMigrations.target_postgresql_version = 11
 
 # https://github.com/ankane/strong_migrations#down-migrations--rollbacks
-StrongMigrations.check_down = true
+# StrongMigrations.check_down = true
