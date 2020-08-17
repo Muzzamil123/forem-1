@@ -134,6 +134,11 @@ end
 group :development, :test do
   gem "amazing_print", "~> 1.2" # Great Ruby debugging companion: pretty print Ruby objects to visualize their structure
   gem "bullet", "~> 6.1" # help to kill N+1 queries and unused eager loading
+  gem "capistrano", "~> 3.11"
+  gem "capistrano-passenger", "~> 0.2.0"
+  gem "capistrano-rails", "~> 1.4"
+  gem "capistrano-rbenv", "~> 2.1", ">= 2.1.4"
+  gem "capistrano-sidekiq", "~> 0.5.4"
   gem "capybara", "~> 3.33" # Capybara is an integration testing tool for rack based web applications
   gem "dotenv-rails", "~> 2.7.6" # For loading ENV variables locally
   gem "faker", "~> 2.13" # A library for generating fake data such as names, addresses, and phone numbers
@@ -146,10 +151,6 @@ group :development, :test do
   gem "rubocop-rspec", "~> 1.42", require: false # Code style checking for RSpec files
   gem "spring", "~> 2.1" # Preloads your application so things like console, rake and tests run faster
   gem "spring-commands-rspec", "~> 1.0" # rspec command for spring
-  gem 'capistrano', '~> 3.11'
-  gem 'capistrano-rails', '~> 1.4'
-  gem 'capistrano-passenger', '~> 0.2.0'
-  gem 'capistrano-rbenv', '~> 2.1', '>= 2.1.4'
 end
 
 group :test do
